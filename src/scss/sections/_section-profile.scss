@@ -1,0 +1,30 @@
+.section-profile {
+    padding: 25px 0;
+
+    .profile {
+        text-align: center;
+
+        &__image {
+            max-width: 300px;
+            width: 100%;
+            margin: 0 auto 20px;
+        }
+    }
+
+    .user {
+        display: block;
+        
+        &__image {
+            width: 60px;
+            height: 60px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+        }
+
+        &__name {
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+}

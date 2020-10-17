@@ -1,0 +1,21 @@
+@import './vendors/include-media';
+@import './vendors/icons';
+
+@import './base/variables';
+
+@import './base/reset';
+@import './base/typography';
+
+@import './layouts/header';
+@import './layouts/common';
+
+@import './components/configure-panel';
+@import './components/button';
+@import './components/photo-card';
+@import './components/photos-list';
+@import './components/user';
+@import './components/pagination';
+@import './components/loader';
+
+@import './sections/section-photos';
+@import './sections/section-profile';

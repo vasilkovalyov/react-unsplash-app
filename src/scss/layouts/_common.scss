@@ -1,0 +1,19 @@
+#wrapper {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.container {
+    max-width: $max-width-center-container;
+    width: 100%;
+    padding: $padding-container;
+    margin: 0 auto;
+}

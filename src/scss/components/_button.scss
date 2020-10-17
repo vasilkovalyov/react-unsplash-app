@@ -1,0 +1,34 @@
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: none;
+    color: $white;
+    font-size: 14px;
+    transition: opacity 0.3s linear, background-color 0.3s linear,;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:focus {
+        border: none;
+        outline: none;
+    }
+
+    &__configure {
+        padding: 5px;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    &__primary {
+        color: $white;
+        background-color: $blue;
+        padding: 12px 15px;
+        min-width: 120px;
+
+        &:hover {
+            background-color: darken($blue, 10%);
+        }
+    }
+}

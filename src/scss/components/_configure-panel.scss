@@ -1,0 +1,18 @@
+.configure-panel {
+    color: $white;
+    background-color: $blue;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__buttons {
+        display: none;
+
+        @include media('>=desktop') {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
