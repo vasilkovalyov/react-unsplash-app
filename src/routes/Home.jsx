@@ -33,7 +33,7 @@ const Home = () => {
         })
         .catch(() => setLoadedPhotos(false))
 
-    }, [paginationObj]);
+    }, []);
 
     const paginationBtnClick = (page) => {
         if(page < 1) return;
@@ -48,6 +48,7 @@ const Home = () => {
             setPhotos(data.data);
         })
     }
+
 
     return (
         <section className="section-photos">
@@ -65,6 +66,7 @@ const Home = () => {
                         </Fragment>
                     : <Loader /> 
                 }
+
             </div>
         </section>
     );

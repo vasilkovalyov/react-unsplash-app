@@ -18,7 +18,7 @@ const Profile = (props) => {
             setLoaded(true);
         })
         .catch(() => setLoaded(false));
-    }, [idPhoto])
+    }, [])
 
     const profile = (data) => {
         return (
